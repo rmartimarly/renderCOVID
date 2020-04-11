@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 #export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_url = 'https://www.dropbox.com/s/93pbdz2ile8grzo/trained_resnet_512_export.pkl?dl=1' 
     #'https://www.dropbox.com/s/x0nwwbbm00qorvr/export.pkl?dl=1'
-export_file_name = 'export.pkl'
+export_file_name = 'trained_resnet_512_export.pkl'# 'export.pkl'
 
 classes = ['COVID-19', 'normal', 'pneumonia']
 path = Path(__file__).parent
